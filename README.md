@@ -2,7 +2,7 @@
 
 A custom **Direct Preference Optimization (DPO)** training pipeline for aligning autonomous LLM agents with strict terminal-execution safety constraints.
 
-This project demonstrates how safety policies can be embedded directly into model behavior — replacing brittle regex-based filtering with learned constitutional reasoning grounded in the **Principle of Least Privilege**.
+This project demonstrates how safety policies can be embedded directly into model behavior replacing brittle regex-based filtering with learned constitutional reasoning grounded in the **Principle of Least Privilege**.
 
 ---
 
