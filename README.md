@@ -139,4 +139,4 @@ constitutional-dpo-agent/
 
 **Uday Rohith Reddy Yeruva** — ML Systems Engineer | Ex-Google DeepMind (Gemini)
 
-[GitHub](https://github.com/Udayrohith-R) | [LinkedIn](https://linkedin.com/in/udayrohith)
+[GitHub](https://github.com/Udayrohith-R)
